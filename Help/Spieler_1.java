@@ -6,7 +6,7 @@ public class Spieler_1 extends Actor
     int punktefeld;
     public void act() 
     {
-        Actor spielball = ((Kamele)getWorld()).getSpielball();
+        Spielball spielball = ((Kamele)getWorld()).getSpielball();
         punktefeld = spielball.getPunktefeld();
         if(Greenfoot.isKeyDown("1"))
         {
