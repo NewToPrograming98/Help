@@ -38,7 +38,7 @@ public class Kamele extends World
     }
     
     
-    public Actor getSpielball()
+    public Spielball getSpielball()
     {
         return spielball;
     }
